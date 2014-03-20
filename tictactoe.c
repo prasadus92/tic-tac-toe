@@ -1,3 +1,5 @@
+/********************************Author: Prasad U S************************************/
+
 #include <stdlib.h>   // standard library (set of standard C functions
 #include <glut.h>  // glut (gl utility toolkit) basic windows functions, keyboard, mouse.
 #include <stdio.h>    // standard (I/O library)
