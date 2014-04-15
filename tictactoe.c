@@ -202,7 +202,7 @@ void Sprint( int x, int y, char *st)
 
 	l=strlen( st ); // see how many characters are in text string.
 	glRasterPos2i( x, y); // location to start printing text
-	for( i=0; i < l; i++)  // loop until i is greater then l
+	for( i=0; i < l; i++)  // loop until i is less then l
 		{
 		glutBitmapCharacter(GLUT_BITMAP_TIMES_ROMAN_24, st[i]); // Print a character on the screen
 	}
